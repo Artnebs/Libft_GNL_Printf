@@ -6,7 +6,7 @@
 /*   By: anebbou <anebbou@student42.fr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 14:27:09 by anebbou           #+#    #+#             */
-/*   Updated: 2024/11/29 16:44:12 by anebbou          ###   ########.fr       */
+/*   Updated: 2024/12/22 20:41:32 by anebbou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -106,6 +106,7 @@ void	ft_putendl_fd(char *s, int fd);
 void	ft_putnbr_fd(int n, int fd);
 char	*ft_ltoa_base(unsigned long n, int base);
 char	*ft_ltoa_base_upper(unsigned long n, int base, int is_upper);
+int		ft_abs(int n);
 
 // list manipulation functions
 
