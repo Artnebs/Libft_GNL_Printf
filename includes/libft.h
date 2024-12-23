@@ -6,7 +6,7 @@
 /*   By: anebbou <anebbou@student42.fr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 14:27:09 by anebbou           #+#    #+#             */
-/*   Updated: 2024/12/22 20:41:32 by anebbou          ###   ########.fr       */
+/*   Updated: 2024/12/23 17:27:03 by anebbou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -126,7 +126,7 @@ char	*get_next_line(int fd);
 
 //printf functions
 
-int ft_printf(const char *format, ...);
+int		ft_printf(const char *format, ...);
 
 /* ************************************************************************** */
 /*DEBUG*/

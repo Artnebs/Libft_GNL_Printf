@@ -6,7 +6,7 @@
 /*   By: anebbou <anebbou@student42.fr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/15 14:19:45 by anebbou           #+#    #+#             */
-/*   Updated: 2024/11/29 16:43:22 by anebbou          ###   ########.fr       */
+/*   Updated: 2024/12/23 17:29:23 by anebbou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -70,15 +70,15 @@ int		parse_flags(const char **format, t_format *fmt);
 int		parse_width(const char **format, t_format *fmt);
 int		parse_precision(const char **format, va_list args, t_format *fmt);
 
-/*
+#endif
+
 // Gestion des flags (bonus uniquement)
 
-void	ft_handle_flag_minus(int *padding_len, int width, int len);
-void	ft_handle_flag_zero(int *padding_len, int width, int len, int flag_minus);
-int	ft_handle_flag_dot(int precision, int len);
-int	ft_handle_minimum_width(int width, int len);
-void	ft_handle_flag_hash(int is_upper);
-void	ft_handle_flag_plus(int n);
-void	ft_handle_flag_space(int n, int flag_plus);
-*/
-#endif
+// void	ft_handle_flag_minus(int *padding_len, int width, int len);
+// void	ft_handle_flag_zero(int *padding_len, int width,
+//	int len, int flag_minus);
+// int	ft_handle_flag_dot(int precision, int len);
+// int	ft_handle_minimum_width(int width, int len);
+// void	ft_handle_flag_hash(int is_upper);
+// void	ft_handle_flag_plus(int n);
+// void	ft_handle_flag_space(int n, int flag_plus);
