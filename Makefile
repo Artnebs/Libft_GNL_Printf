@@ -6,7 +6,7 @@
 #    By: anebbou <anebbou@student42.fr>             +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/06 14:27:24 by anebbou           #+#    #+#              #
-#    Updated: 2025/01/07 16:26:11 by anebbou          ###   ########.fr        #
+#    Updated: 2025/02/09 17:37:47 by anebbou          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -74,7 +74,8 @@ LIBFT_SRCS = $(LIBFT_DIR)/ft_isalpha.c \
 			 $(LIBFT_DIR)/ft_lstiter.c \
 			 $(LIBFT_DIR)/ft_lstmap.c \
 			 $(LIBFT_DIR)/ft_free_split.c \
-			 $(LIBFT_DIR)/ft_abs.c
+			 $(LIBFT_DIR)/ft_abs.c \
+			 $(LIBFT_DIR)/ft_strjoin_free.c
 
 PRINTF_SRCS = $(PRINTF_DIR)/ft_printf.c \
 			  $(PRINTF_DIR)/ft_printf_char_str.c \
