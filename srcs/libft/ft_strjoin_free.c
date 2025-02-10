@@ -6,17 +6,17 @@
 /*   By: anebbou <anebbou@student42.fr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/09 17:34:14 by anebbou           #+#    #+#             */
-/*   Updated: 2025/02/09 17:34:19 by anebbou          ###   ########.fr       */
+/*   Updated: 2025/02/10 14:46:56 by anebbou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char *ft_strjoin_free(char *s1, const char *s2)
+char	*ft_strjoin_free(char *s1, const char *s2)
 {
-	char *joined_str;
-	size_t len1;
-	size_t len2;
+	char	*joined_str;
+	size_t	len1;
+	size_t	len2;
 
 	if (!s1 || !s2)
 		return (NULL);
