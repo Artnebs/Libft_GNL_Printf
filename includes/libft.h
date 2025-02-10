@@ -6,7 +6,7 @@
 /*   By: anebbou <anebbou@student42.fr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 14:27:09 by anebbou           #+#    #+#             */
-/*   Updated: 2025/02/10 14:47:18 by anebbou          ###   ########.fr       */
+/*   Updated: 2025/02/10 14:52:38 by anebbou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,12 +45,6 @@ typedef struct s_list
 	struct s_list	*next;
 }	t_list;
 
-typedef struct s_fd_buffer
-{
-	int					fd;
-	char				*buffer;
-	struct s_fd_buffer	*next;
-}	t_fd_buffer;
 
 /* ************************************************************************** */
 /*PROTO*/
