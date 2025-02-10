@@ -6,7 +6,7 @@
 /*   By: anebbou <anebbou@student42.fr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/18 21:27:12 by anebbou           #+#    #+#             */
-/*   Updated: 2024/11/29 16:37:40 by anebbou          ###   ########.fr       */
+/*   Updated: 2025/02/10 14:43:40 by anebbou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,12 +35,17 @@
 /* STRUCTURES */
 /* ************************************************************************** */
 
+# ifndef S_FD_BUFFER_DEFINED
+#  define S_FD_BUFFER_DEFINED
+
 typedef struct s_fd_buffer
 {
-	int					fd;
-	char				*buffer;
-	struct s_fd_buffer	*next;
-}	t_fd_buffer;
+	int fd;
+	char *buffer;
+	struct s_fd_buffer *next;
+} t_fd_buffer;
+
+# endif
 
 /* ************************************************************************** */
 /* PROTOTYPES */
