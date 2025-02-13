@@ -6,7 +6,7 @@
 #    By: anebbou <anebbou@student42.fr>             +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/06 14:27:24 by anebbou           #+#    #+#              #
-#    Updated: 2025/02/09 17:37:47 by anebbou          ###   ########.fr        #
+#    Updated: 2025/02/13 16:40:26 by anebbou          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -24,7 +24,8 @@ PRINTF_DIR = srcs/ft_printf
 GNL_DIR = srcs/get_next_line
 
 # Fichiers sources listés manuellement
-LIBFT_SRCS = $(LIBFT_DIR)/ft_isalpha.c \
+LIBFT_SRCS = $(LIBFT_DIR)/ft_sprintf.c \
+			 $(LIBFT_DIR)/ft_isalpha.c \
 			 $(LIBFT_DIR)/ft_isdigit.c \
 			 $(LIBFT_DIR)/ft_isalnum.c \
 			 $(LIBFT_DIR)/ft_strlen.c \

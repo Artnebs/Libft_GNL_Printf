@@ -6,7 +6,7 @@
 /*   By: anebbou <anebbou@student42.fr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 14:27:09 by anebbou           #+#    #+#             */
-/*   Updated: 2025/02/10 14:52:38 by anebbou          ###   ########.fr       */
+/*   Updated: 2025/02/13 16:49:24 by anebbou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,7 @@
 # include <string.h>
 # include <limits.h>
 # include <stdint.h>
+# include <stdarg.h>
 
 /* ************************************************************************** */
 /*MACROS*/
@@ -44,7 +45,6 @@ typedef struct s_list
 	void			*content;
 	struct s_list	*next;
 }	t_list;
-
 
 /* ************************************************************************** */
 /*PROTO*/
@@ -123,6 +123,7 @@ char	*get_next_line(int fd);
 //printf functions
 
 int		ft_printf(const char *format, ...);
+int		ft_sprintf(char *dest, const char *fmt, ...);
 
 /* ************************************************************************** */
 /*DEBUG*/
