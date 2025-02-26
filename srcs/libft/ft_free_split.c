@@ -6,23 +6,25 @@
 /*   By: anebbou <anebbou@student42.fr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/07 15:57:40 by anebbou           #+#    #+#             */
-/*   Updated: 2025/02/10 14:46:19 by anebbou          ###   ########.fr       */
+/*   Updated: 2025/02/26 17:57:01 by anebbou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_free_split(char **split)
+void	ft_free_split(char **array)
 {
 	int	i;
 
-	if (!split)
-		return ;
 	i = 0;
-	while (split[i] != NULL)
+	if (!array)
+		return ;
+	while (array[i])
 	{
-		free(split[i]);
+		free(array[i]);
+		array[i] = NULL;
 		i++;
 	}
-	free(split);
+	free(array);
+	array = NULL;
 }
