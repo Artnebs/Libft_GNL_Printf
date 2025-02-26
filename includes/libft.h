@@ -6,7 +6,7 @@
 /*   By: anebbou <anebbou@student42.fr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 14:27:09 by anebbou           #+#    #+#             */
-/*   Updated: 2025/02/13 16:49:24 by anebbou          ###   ########.fr       */
+/*   Updated: 2025/02/26 17:17:55 by anebbou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,7 +65,7 @@ void	ft_free_split(char **split);
 
 size_t	ft_strlen(const char *s);
 char	*ft_strdup(const char *s);
-int		ft_strcmp(char *s1, char *s2);
+int		ft_strcmp(const char *s1, const char *s2);
 char	*ft_strncpy(char *dest, const char *src, size_t n);
 char	*ft_strchr(const char *s, int c);
 char	*ft_strrchr(const char *s, int c);
