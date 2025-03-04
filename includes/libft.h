@@ -6,7 +6,7 @@
 /*   By: anebbou <anebbou@student42.fr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 14:27:09 by anebbou           #+#    #+#             */
-/*   Updated: 2025/02/26 17:17:55 by anebbou          ###   ########.fr       */
+/*   Updated: 2025/03/04 19:35:42 by anebbou          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,6 +60,7 @@ int		ft_memcmp(const void *s1, const void *s2, size_t n);
 void	*ft_memchr(const void *s, int c, size_t n);
 void	*ft_calloc(size_t count, size_t size);
 void	ft_free_split(char **split);
+void	*ft_realloc(void *ptr, size_t old_size, size_t new_size);
 
 // string functions
 
